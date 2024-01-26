@@ -18,3 +18,5 @@ def contact(request):
     return render(request, 'contact.html')
     
     #return HttpResponse("This is contactus.")
+def joinus(request):
+    return render(request, 'joinus.html')
