@@ -7,10 +7,14 @@ def index(request):
     #return HttpResponse("This is home page.")
 
 def about(request):
-    return HttpResponse("This is about.")
+    return render(request, 'about.html')
+    #return HttpResponse("This is about.")
 
 def services(request):
-    return HttpResponse("This is services.")
+    return render(request, 'services.html')
+    #return HttpResponse("This is services.")
 
 def contact(request):
-    return HttpResponse("This is contactus.")
+    return render(request, 'contact.html')
+    
+    #return HttpResponse("This is contactus.")
