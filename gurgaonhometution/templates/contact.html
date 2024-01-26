@@ -7,9 +7,18 @@ Contact
 {% block body %}
 This is my body Contact 
 
-<div.container>
+<style>
+    .container {
+        text-align: center;
+    }
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKR_WXU5nAgjm4upxE34ezudcxpiCoThgOO83Jxg5HcNQMTQ/viewform?embedded=true" width="640" height="1995" frameborder="0" marginheight="0" marginwidth="0" align="center">Loading…</iframe>
+    iframe {
+        margin: 0 auto; /* This centers the iframe horizontally within the container */
+        display: block; /* Ensures the iframe is treated as a block element */
+    }
+</style>
 
+<div class="container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKR_WXU5nAgjm4upxE34ezudcxpiCoThgOO83Jxg5HcNQMTQ/viewform?embedded=true" width="640" height="1995" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 {% endblock body %}
