@@ -20,3 +20,7 @@ def contact(request):
     #return HttpResponse("This is contactus.")
 def joinus(request):
     return render(request, 'joinus.html')
+
+def customcontact(request):
+    return render(request, 'custom-contact.html')
+
