@@ -1,3 +1,3 @@
 # home-tution-django-python
 
-working on the more updates
+This is a demo project.
